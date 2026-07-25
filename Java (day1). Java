@@ -1,0 +1,51 @@
+public class Test{
+    public String mark = "Marks : ";
+    public String space = "                  ";
+    public String name1 = "Name : TARLADA DILEEP";
+    public int marks1 = 90;
+    public String grade1 = "Grade : A";
+    public String status1 = "Status : pass";
+    public String name2 = " Name : YEDDU SIVE";
+    public int marks2 = 99;
+    public String grade2 = "Grade : A";
+    public String status2 = "Status : pass";
+    public String name3 = "Name : MUKKA SAI MURALI";
+    public int marks3 = 98;
+    public String grade3 = "Grade : A";
+    public String status3 = "Status : pass";
+    public String name4 = "Name : ALLU GOPI";
+    public int marks4 = 97;
+    public String grade4 = "Grade : A";
+    public String status4 = "Status : pass";
+    public static void main(String[] args){
+        System.out.println("SHOW YOUR SEM RESULTS");
+        Test a = new Test();
+        System.out.println("STUDENT NUMBER 24HQ1A0431 ");
+        System.out.println(a.name1);
+        System.out.println(a.mark);
+        System.out.println(a.marks1);
+        System.out.println(a.grade1);
+        System.out.println(a.status1);
+        System.out.println(a.space);
+        System.out.println("STUDENT NUMBER 24HQ1A0448");
+        System.out.println(a.name2);
+        System.out.println(a.mark);
+        System.out.println(a.marks2);
+        System.out.println(a.grade2);
+        System.out.println(a.status2);
+        System.out.println(a.space);
+        System.out.println("STUDENT NUMBER 24HQ1A0418");
+        System.out.println(a.name3);
+        System.out.println(a.mark);
+        System.out.println(a.marks3);
+        System.out.println(a.grade3);
+        System.out.println(a.status3);
+        System.out.println(a.space);
+        System.out.println("STUDENT NUMBER 24HQ1A0401");
+        System.out.println(a.name4);
+        System.out.println(a.mark);
+        System.out.println(a.marks4);
+        System.out.println(a.grade4);
+        System.out.println(a.status4);
+    }
+}
