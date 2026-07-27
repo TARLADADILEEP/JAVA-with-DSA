@@ -17,7 +17,7 @@ public class Test{
         System.out.println(r.c1);
         System.out.println("SIZE OF BYTE : ");
         System.out.println(Byte.SIZE/8);
-        System.out.println("MIN RANGE OF BYTE : ");
+        System.out.println("MIN RANGE OF BYTE : "):
         System.out.println(Byte.MIN_VALUE);
         System.out.println("MAX RANGE OF BYTE : ");
         System.out.println(Byte.MAX_VALUE);
