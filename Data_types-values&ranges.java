@@ -1,0 +1,61 @@
+public class Test{
+    public char c1=' ';
+    public String c2="----------------------------- ";
+    byte b=120;
+    short s=200;
+    int i=2000;
+    long l=25000;
+    float f=9.0f;
+    double d=99.9;
+    char c='D';
+    boolean b1=true;
+    boolean b2=false;
+    public static void main(String[] args){
+        System.out.println("SIZES & RANGES OF 'DATA TYPES' : ");
+        Test r= new Test();
+        System.out.println(r.c2);
+        System.out.println(r.c1);
+        System.out.println("SIZE OF BYTE : ");
+        System.out.println(Byte.SIZE/8);
+        System.out.println("MIN RANGE OF BYTE : ");
+        System.out.println(Byte.MIN_VALUE);
+        System.out.println("MAX RANGE OF BYTE : ");
+        System.out.println(Byte.MAX_VALUE);
+        System.out.println(r.c1);
+        System.out.println("SIZE OF INTEGER : ");
+        System.out.println(Integer.SIZE/8);
+        System.out.println("MIN RANGE OF INTEGER :");
+        System.out.println(Integer.MIN_VALUE);
+        System.out.println("MAX RANGE OF INTEGER :");
+        System.out.println(Integer.MAX_VALUE);
+        System.out.println(r.c1);
+        System.out.println("SIZE OF SHORT : ");
+        System.out.println(Short.SIZE/8);
+        System.out.println("MIN RANGE OF SHORT : ");
+        System.out.println(Short.MIN_VALUE);
+        System.out.println("MAX RANGE OF SHORT : ");
+        System.out.println(Short.MAX_VALUE);
+        System.out.println(r.c1);
+        System.out.println("SIZE OF LONG : ");
+        System.out.println(Long.SIZE/8);
+        System.out.println("MIN RANGE OF LONG : ");
+        System.out.println(Long.MIN_VALUE);
+        System.out.println("MAX RANGE OF LONG : ");
+        System.out.println(Long.MAX_VALUE);
+        System.out.println(r.c1);
+        System.out.println("SIZE OF FLOAT : ");
+        System.out.println(Float.SIZE/8);
+        System.out.println("MIN RANGE OF FLOAT : ");
+        System.out.println(Float.MIN_VALUE);
+        
+        System.out.println("MAX RANGE OF FLOAT : ");
+        System.out.println(Float.MAX_VALUE);
+        System.out.println(r.c1);
+        System.out.println("SIZE OF DOUBLE : ");
+        System.out.println(Double.SIZE/8);
+        System.out.println("MIN RANGE OF DOUBLE : ");
+        System.out.println(Double.MIN_VALUE);
+        System.out.println("MAX RANGE OF DOUBLE : ");
+        System.out.println(Double.MAX_VALUE);
+    }
+}
